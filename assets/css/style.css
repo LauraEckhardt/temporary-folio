@@ -1,0 +1,237 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62,5%;
+}
+/* groß und skinny */
+@font-face {
+    font-family: athene;
+    src: url(../fonts/Athene.otf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+h1, h2, h3, h4, h5{
+    font-family: athene;
+    font-size: 16rem;
+}
+h4{
+    font-size: 6,4rem;
+}
+
+/* HEADER */
+header{
+    background-color: #EFE8D7;
+}
+.oben{
+    font-family: opensans;
+    color: #042A5A;
+    font-size: 1,8rem;
+    border-bottom: 2px solid #042A5A;
+    display: flex;
+    justify-content: space-between;
+}
+.oben p{
+    margin: 1% 5% 1% 5%;
+    color: #042A5A;
+}
+h1{
+    border-bottom: 2px solid #042A5A;
+    color: #042A5A;
+    margin: 5% 5% 0 5%;
+    display: inline-block;
+}
+.temp{
+    text-align: center;
+    margin-bottom: 4%;
+}
+.temp2{
+    padding: 0 7.5% 0 7.5%;
+}
+.temp2 span{
+    letter-spacing: -1rem;
+}
+.person{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    color: #042A5A;
+}
+.person img{
+    width: 35%;
+    margin-bottom: 3%;
+}
+.designer{
+    font-family: athene;
+}
+.person p{
+    align-self: center;
+    margin-right: 11%;
+    font-size: 2.4rem;
+    margin-bottom: 10%;
+}
+/* MAIN */
+.release{
+    background-color: #F4C4C4;
+    color: #282B29;
+}
+.a{
+    font-size: 2.6rem;
+    padding: 9% 0 4% 9%;
+    color: #282B29;
+}
+.release h2{
+    font-size: 16rem;
+    color: #282B29;
+}
+.skills{
+    width: 49%;
+    margin-left: 45%;
+}
+.text1{
+    margin: 0 5% 10% 37.5%;
+    /* margin right 5% ,left*/
+    width: 63%;
+    text-align: left;
+    line-height: 200%;
+}
+.text2{
+    text-align: right;
+    border-bottom: 2px solid #282B29;
+    font-size: 1.6rem;
+}
+.chapter{
+    font-size: 1.4rem;
+    text-align: left;
+}
+.chapter1{
+    width: 16%;
+    font-size: 1.4rem;
+    text-align: right;
+}
+.skill{
+    font-size: 2.1rem;
+    line-height: 42px;
+    margin-right: 55%;
+}
+.skill1{
+    font-size: 2.1rem;
+    line-height: 42px;
+    margin-right: 46%;
+}
+.skill2{
+    font-size: 2.1rem;
+    line-height: 42px;
+    margin-right: 49%;
+}
+.integrity{
+    border-bottom: 2px solid #282B29;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 4% 0 4% 0;
+}
+.release img{
+    width: 7.3%;
+    margin: 10% 5% 10% 86.5%;
+}
+.works{
+    background-color: #DEB873;
+    color: #7D2222;
+}
+.works h3{
+    text-align: right;
+    font-size: 16rem;
+}
+.a2{
+    font-size: 1,6rem;
+    padding: 9% 9% 4% 0;
+    text-align: right;
+}
+.a3{
+    font-size: 1,6rem;
+    text-align: left;
+    padding: 0 0 10% 5%;
+    width: 32%;
+    line-height: 200%;
+}
+.bild1{
+    display: flex;
+    margin: 0 8.5% 15% 4.5%;
+    justify-content: space-between;
+}
+.b1{
+    font-size: 6.4rem;
+    text-align: left;
+    /* margin-left: 5%; */
+    width: 40%;
+    position: relative;
+}
+.bild2{
+    display: flex;
+    margin: 0 5% 15% 5%;
+    justify-content: space-between;
+}
+.b2{
+    font-size: 6.4rem;
+    text-align: right;
+    margin-right: 3.5%;
+}
+.bild3{
+    display: flex;
+    margin: 0 5% 15% 5%;
+    justify-content: space-between;
+    width: 90%;
+}
+.b3{
+    font-size: 6.4rem;
+    text-align: left;
+    position: relative;
+}
+.bild4{ 
+    display: flex;
+    padding: 0 5% 15% 5%;
+    justify-content: space-between;
+    background-color: #DEB873;
+}
+.b4{
+    font-size: 6.4rem;
+    text-align: right;
+    margin-bottom: 10%;
+}
+/* FOOTER */
+footer{
+    background-color: #D2D2D2;
+    color: #388883;
+}
+.z{
+    font-size: 1.6rem;
+    padding: 9% 0 4% 9%;
+    color: #388883;
+}
+footer h5{
+    font-size: 16rem;
+}
+.a4{
+    font-size: 2,4rem;
+    text-align: left;
+    margin: 0 0 10% 40%;
+    width: 15%;
+    line-height: 200%;
+}
+nav{
+    line-height: 200%;
+    text-align: right;
+    padding: 0 5% 5% 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #388883;
+    font-size: 2,4rem;
+}
